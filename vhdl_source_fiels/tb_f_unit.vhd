@@ -44,9 +44,36 @@ begin
         a_in <= x"0001";
         b_in <= x"0002";
         f_select <= "00000";
-    
+        wait for 20ns; --f = a
+        f_select <= "00001";
+        wait for 20ns; -- f= a+1
+        f_select<= "00010";
+        wait for 20ns; -- f= a+b
+        f_select<= "00011";
+        wait for 20ns; --f = a+ b + 1
+        f_select<= "00100";
+        wait for 20ns; -- f = a- b
+        f_select<="00101";
+        wait for 20ns; -- f = a -b +1
+        f_select<="00110";
+        wait for 20ns; -- f = a - 1
+        f_select<="00111";
+        wait for 20ns; -- f = a
+        f_select<= "01000";
+        wait for 20ns; -- f = a^b
+        f_select<="01010";
+        wait for 20ns; -- f = a or b
+        f_select<="01100";
+        wait for 20ns; -- f = a xor b
+        f_select<="01110";
+        wait for 20ns; -- f = not a
+        f_select<="10000";
+        wait for 20ns; --f = b
+        f_select<="10100";
+        wait for 20ns; -- f = shift right b
+        f_select<="11000";
+        wait for 20ns; -- f = shift left b
 
-        wait;
     end process;
 
 end tb;
