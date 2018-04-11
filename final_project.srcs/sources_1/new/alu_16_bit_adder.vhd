@@ -109,7 +109,7 @@ Component alu_unit
   S1 => g_sel(2),
   S2 => g_sel(3),
   C => c4,
-  G_out => f_out(1)
+  G_out => f_out(4)
   
   );
   
@@ -243,7 +243,7 @@ Component alu_unit
   G_out => f_out(15)
   
   );
-  result <= f_out after 1ns;
+  result <= f_out after 2ns;
   v_out <= c15 XOR c14 after 1ns;
   c_out <= c15 after 1ns;
   n_out <= f_out(15) after 1ns;

@@ -34,25 +34,25 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity logic_circuit_a_b is
  Port(
     S0, S1: in STD_LOGIC;
-    A, B : in STD_LOGIC;
-    G: out STD_LOGIC
+    A, B : in STD_LOGIC_VECTOR(15 downto 0);
+    G: out STD_LOGIC_VECTOR(15 downto 0)
     );
 end logic_circuit_a_b;
 
 architecture Behavioral of logic_circuit_a_b is
     Component mux4_to_1
         Port (
-           S0, S1:  in STD_LOGIC;
-           A, B,C,D: in STD_LOGIC;
-           Z: out STD_LOGIC
+           A, B, D, C:  in STD_LOGIC_VECTOR(15 downto 0);
+           S0, S1: in STD_LOGIC;
+           Z: out STD_LOGIC_VECTOR(15 downto 0)
         );
     End Component;
-    signal sum0, sum1, sum2 : STD_LOGIC;
-    signal sum3, result: STD_LOGIC;
+    signal sum0, sum1, sum2 : STD_LOGIC_VECTOR(15 downto 0);
+    signal sum3, result: STD_LOGIC_VECTOR(15 downto 0);
     
 begin
     sum0 <= A and B ;
-    sum1 <= A or B ;
+    sum1 <= A or  B;
     sum2 <= A xor B;
     sum3 <= not A ;
     
@@ -65,5 +65,5 @@ begin
     D=>sum3,
     Z =>result    
     );
-    G <= result after 1ns;
+    G <= result;
 end Behavioral;

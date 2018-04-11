@@ -1,0 +1,61 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../final_project.srcs/sources_1/new/decoder4_9.vhd" \
+"../../../../final_project.srcs/sources_1/new/mux16_16bit.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/mux2to1.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/reg.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/register_file.vhd" \
+"../../../../final_project.srcs/sources_1/new/mux9to16.vhd" \
+"../../../../final_project.srcs/sources_1/new/CAR.vhd" \
+"../../../../final_project.srcs/sources_1/new/Extended.vhd" \
+"../../../../final_project.srcs/sources_1/new/InstrReg.vhd" \
+"../../../../final_project.srcs/sources_1/new/ProgCounter.vhd" \
+"../../../../final_project.srcs/sources_1/new/Project2main.vhd" \
+"../../../../final_project.srcs/sources_1/new/alu_16_bit_adder.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/alu_unit.vhd" \
+"../../../../final_project.srcs/sources_1/new/arithmetic16bit.vhd" \
+"../../../../final_project.srcs/sources_1/new/b_to_y_16bit.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/datapath.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/decoder38.vhd" \
+"../../../../final_project.srcs/sources_1/new/f_unit.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/full_adder.vhd" \
+"../../../../final_project.srcs/sources_1/new/full_adder_16bit.vhd" \
+"../../../../final_project.srcs/sources_1/new/logic16bit.vhd" \
+"../../../../final_project.srcs/sources_1/new/logic_circuit_16.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/logic_circuit_a_b.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/logic_circuit_b.vhd" \
+"../../../../final_project.srcs/sources_1/new/memory.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/multiplexer.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/mux1bit_selector.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/mux2_16bit.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/mux2_to_1.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/mux3_to_1.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/mux4_to_1.vhd" \
+"../../../../final_project.srcs/sources_1/new/programmeCPU.vhd" \
+"../../../../final_project.srcs/sources_1/imports/src/shifter.vhd" \
+"../../../../final_project.srcs/sources_1/new/zero_fill.vhd" \
+"../../../../final_project.srcs/sim_1/new/mux9_16_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/decoder4_9_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/single_reg_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/mux2to16_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/arithmetic16bit_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/alu_unit_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/b_to_y_16bit_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/logic16_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/mux4to1_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/ripple_adder_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/shifter_tb.vhd" \
+"../../../../final_project.srcs/sim_1/imports/src/testbench_datapath.vhd" \
+"../../../../final_project.srcs/sim_1/new/zero_fill_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/mem_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/cpu_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/main_tb_.vhd" \
+"../../../../final_project.srcs/sim_1/new/extend_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/car_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/pc_tb.vhd" \
+"../../../../final_project.srcs/sim_1/new/instruction_reg_tb.vhd" \
+"../../../../../Vivado_Tutorial/Project/Assignment1/test/test.srcs/sim_1/new/reg_tb_9.vhd" \
+"../../../../final_project.srcs/sim_1/new/tb_f_unit.vhd" \
+
+# Do not sort compile order
+nosort

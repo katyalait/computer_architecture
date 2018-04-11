@@ -95,7 +95,7 @@ begin
     y => result
     );
     
-    G_out <= result after 1ns ;
-    C <= c_result after 1ns;
+    G_out <= result  ;
+    C <= c_result;
     
 end Behavioral;

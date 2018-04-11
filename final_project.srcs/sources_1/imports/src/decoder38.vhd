@@ -50,6 +50,7 @@ begin
    D(5)<= '1' after 1ns when A = "101" else '0' after 1ns;
    D(6)<= '1' after 1ns when A = "110" else '0' after 1ns;
    D(7)<= '1' after 1ns when A = "111" else '0' after 1ns;
+   
    			
 
 end Behavioral;
